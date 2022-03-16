@@ -213,7 +213,7 @@ header {
   top:300px;
   -webkit-animation:content-s 7.5s infinite;
   animation:content-s 7.5s infinite;
-  z-index:5;
+  z-index:10;
 }
 .content-txt h2{
   font-family:Arial;
