@@ -213,7 +213,7 @@ header {
   top:300px;
   -webkit-animation:content-s 7.5s infinite;
   animation:content-s 7.5s infinite;
-  z-index:3;
+  z-index:5;
 }
 .content-txt h2{
   font-family:Arial;
@@ -295,32 +295,6 @@ header {
     margin-left:-300%;
   }
 }
-
-
-    
- 
-
-
-
-
- 
-
-
-    
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
 @keyframes slide{
   0%,100%{
     margin-left:0%;
@@ -372,48 +346,8 @@ header {
   90%{left:-420px;}
   100%{left:-420px;}
 }
-@keyframes content-s{
-  0%{left:-420px;}
-  10%{left:20px;}
-  15%{left:0px;}
-  30%{left:0px;}
-  40%{left:0px;}
-  50%{left:0px;}
-  60%{left:0px;}
-  70%{left:0;}
-  80%{left:-420px;}
-  90%{left:-420px;}
-  100%{left:-420px;}
-}
 
 @-webkit-keyframes on{
-  0%,100%{
-    margin-left:0%;
-  }
-  21%{
-    margin-left:0%;
-  }
-  25%{
-    margin-left:15px;
-  }
-  46%{
-    margin-left:15px;
-  }
-  50%{
-    margin-left:30px;
-  }
-  71%{
-    margin-left:30px;
-  }
-  75%{
-    margin-left:45px;
-  }
-  96%{
-    margin-left:45px;
-  }
-}
-
-@keyframes on{
   0%,100%{
     margin-left:0%;
   }
